@@ -336,7 +336,7 @@ export default function App() {
           <Btn onClick={() => setShowSearch(true)} accent>+ Add City</Btn>
           {range && <Btn onClick={copyMeeting} green>📋 Copy</Btn>}
           {range && <Btn onClick={openCalModal} blue>📅 Add to Calendar</Btn>}
-          <Btn onClick={getAI} purple>✨ AI Best Time</Btn>
+          <Btn onClick={() => toast_("✨ AI Best Time — Coming Soon!", "#8b5cf6")} purple>✨ AI Best Time</Btn>
         </div>
       </div>
 
