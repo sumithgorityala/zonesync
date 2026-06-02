@@ -1,16 +1,37 @@
-# React + Vite
+# 🌐 ZoneSync
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A free, open-source global timezone scheduler and meeting planner for distributed teams.
 
-Currently, two official plugins are available:
+Live at → **[zonesync-three.vercel.app](https://zonesync-three.vercel.app)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- **Visual hour grid** — see all timezones side by side at a glance
+- **Drag to select** — click and drag across any time window to schedule a meeting
+- **Calendar export** — add directly to iOS, Android, Google Calendar, or Outlook
+- **40+ cities** — including Cleveland, New York, London, Mumbai, Tokyo, and more
+- **Day navigation** — schedule meetings on future dates
+- **DST aware** — automatic daylight saving time handling
+- **12h / 24h toggle** — works your way
+- **AI Best Time** — coming soon
+- **No login required** — free for everyone
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built With
 
-## Expanding the ESLint configuration
+- React + Vite
+- Intl API (native timezone conversion, no external library)
+- Claude API (AI meeting suggestions — coming soon)
+- Vercel (hosting)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run Locally
+
+```bash
+git clone https://github.com/sumithgorityala/zonesync.git
+cd zonesync
+npm install
+npm run dev
+```
+
+## Author
+
+Sumith Gorityala — [LinkedIn](https://www.linkedin.com/in/sumith-gorityala-318574192/) · [Portfolio](https://www.sumithgorityala.com/)
